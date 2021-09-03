@@ -2,8 +2,6 @@
 
 This sample is a React template for [Azure Cognitive Search](https://docs.microsoft.com/en-us/azure/search/search-what-is-azure-search). It leverages the [Azure SDK for Javascript/Typescript](https://github.com/Azure/azure-sdk-for-js/tree/master/sdk/search/search-documents/) and [Azure Static Web Apps](https://aka.ms/swadocs) to make it easy to get up and running with a simple web application.
 
-You can view the resulting web application here: [https://blue-mushroom-0c2ef640f.azurestaticapps.net/](https://blue-mushroom-0c2ef640f.azurestaticapps.net/)
-
 ![Screenshot of sample web app](./images/web-app.png)
 
 You can easily deploy the sample onto Azure or run it locally by following the steps below.
