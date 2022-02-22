@@ -44,6 +44,8 @@ export default function Details() {
           <p className="card-text">{document.LASTNAME}</p>
           <p className="card-text">{document.GENDER}</p>
           <p className="card-text">{document.DOB}</p>
+          <p className="card-text">{document.GASID}</p>
+          <p className="card-text">{document.SOURCESYSTEM}</p>
         </div>
       );
     }
