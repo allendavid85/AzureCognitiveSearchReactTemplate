@@ -39,6 +39,7 @@ export default function Details() {
       resultStyle += " active";
       detailsBody = (
         <div className="card-body">
+          <img className="image" src={document.IMAGEURL} alt="NONE"></img>
           <h5 className="card-title">{'Full Name : ' + document.FULLNAME}</h5>
           <p className="card-text">{'First Name : ' + document.FIRSTNAME}</p>
           <p className="card-text">{'Last Name : ' + document.LASTNAME}</p>
