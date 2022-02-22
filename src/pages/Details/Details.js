@@ -39,13 +39,13 @@ export default function Details() {
       resultStyle += " active";
       detailsBody = (
         <div className="card-body">
-          <h5 className="card-title">{document.FULLNAME}</h5>
-          <p className="card-text">{document.FIRSTNAME}</p>
-          <p className="card-text">{document.LASTNAME}</p>
-          <p className="card-text">{document.GENDER}</p>
-          <p className="card-text">{document.DOB}</p>
-          <p className="card-text">{document.GASID}</p>
-          <p className="card-text">{document.SOURCESYSTEM}</p>
+          <h5 className="card-title">{'Full Name : ' + document.FULLNAME}</h5>
+          <p className="card-text">{'First Name : ' + document.FIRSTNAME}</p>
+          <p className="card-text">{'Last Name : ' + document.LASTNAME}</p>
+          <p className="card-text">{'Gender : ' + document.GENDER}</p>
+          <p className="card-text">{'Date of Birth : ' + document.DOB}</p>
+          <p className="card-text">{'Global Alias Id : ' + document.GASID}</p>
+          <p className="card-text">{'Source System : ' + document.SOURCESYSTEM}</p>
         </div>
       );
     }
