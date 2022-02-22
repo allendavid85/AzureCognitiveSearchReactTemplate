@@ -39,9 +39,11 @@ export default function Details() {
       resultStyle += " active";
       detailsBody = (
         <div className="card-body">
-          <h5 className="card-title">{document.NAME_FULL}</h5>
-          <p className="card-text">{document.NAME_FIRST}</p>
-          <p className="card-text">{document.NAME_LAST}</p>
+          <h5 className="card-title">{document.FULLNAME}</h5>
+          <p className="card-text">{document.FIRSTNAME}</p>
+          <p className="card-text">{document.LASTNAME}</p>
+          <p className="card-text">{document.GENDER}</p>
+          <p className="card-text">{document.DOB}</p>
         </div>
       );
     }
