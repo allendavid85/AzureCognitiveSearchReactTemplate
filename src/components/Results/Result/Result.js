@@ -7,7 +7,7 @@ export default function Result(props) {
     <div className="card result">
         <a href={`/details/${props.document.ROWID_OBJECT}`}>
             <div className="card-body">
-                <h6 className="title-style">{props.document.NAME_FULL}</h6>
+                <h6 className="title-style">{props.document.FULLNAME}</h6>
             </div>
         </a>
     </div>
